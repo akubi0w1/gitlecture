@@ -1,0 +1,7 @@
+# Editor Config
+.idea/*
+*.bak
+.DS_Store
+
+node_modules
+note.md

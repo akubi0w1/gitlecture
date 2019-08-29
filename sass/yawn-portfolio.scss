@@ -1,0 +1,150 @@
+$main: #00c2c7;
+// $sub: #97ebdb;
+$sub: #0086ad;
+
+$background: #daf8e3;
+$white: #f0fcf3;
+$main-text: #002a41;
+$border-color: #ddd;
+
+$footer-height: 60px;
+
+body{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-block-start: 0.0em;
+    margin-block-end: 0.4em;
+}
+
+/* source */
+.mb{
+    &-10{
+        margin-bottom: 10px;
+    }
+    &-20{
+        margin-bottom: 20px;
+    }
+    &-30{
+        margin-bottom: 30px;
+    }
+}
+
+.al{
+    &-l{
+        text-align: left;
+    }
+}
+
+.container{
+    position: relative;
+    padding-bottom: $footer-height;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    height: 200px;
+    background-color: $main;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    font-size: 2em;
+    color: #fff;
+}
+
+nav{
+    color: $main-text;
+    text-align: center;
+    ul{
+        list-style-type: none;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+        padding-inline-end: 0px;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        display: inline-block;
+        padding: 5px 20px;
+        margin: 8px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: $main-text;
+        &:hover{
+            background-color: $background;
+        }
+    }
+}
+
+.content{
+    text-align: center;
+    padding: 30px 50px;
+    .icon{
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        background: $main;
+        border-radius: 5px;
+    }
+}
+
+#profile{
+    background-color: $background;
+    color: $main-text;
+}
+
+#univercity{
+    background-color: #fff;
+    color: $main-text;
+}
+
+#skills{
+    background-color: $background;
+    color: $main-text;
+}
+
+#contact{
+    background-color: #fff;
+    color: $main-text;
+}
+
+.card{
+    padding: 20px 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid $border-color;
+    color: $main-text;
+}
+
+.item-table{
+    display: inline-block;
+}
+
+.footer{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: $footer-height;
+    background-color: $sub;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

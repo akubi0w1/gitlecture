@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-block-start: 0.0em;
+  margin-block-end: 0.4em;
+}
+
+/* source */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.al-l {
+  text-align: left;
+}
+
+.container {
+  position: relative;
+  padding-bottom: 60px;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  height: 200px;
+  background-color: #00c2c7;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  font-size: 2em;
+  color: #fff;
+}
+
+nav {
+  color: #002a41;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  padding-inline-end: 0px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: inline-block;
+  padding: 5px 20px;
+  margin: 8px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #002a41;
+}
+
+nav a:hover {
+  background-color: #daf8e3;
+}
+
+.content {
+  text-align: center;
+  padding: 30px 50px;
+}
+
+.content .icon {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background: #00c2c7;
+  border-radius: 5px;
+}
+
+#profile {
+  background-color: #daf8e3;
+  color: #002a41;
+}
+
+#univercity {
+  background-color: #fff;
+  color: #002a41;
+}
+
+#skills {
+  background-color: #daf8e3;
+  color: #002a41;
+}
+
+#contact {
+  background-color: #fff;
+  color: #002a41;
+}
+
+.card {
+  padding: 20px 10px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  color: #002a41;
+}
+
+.item-table {
+  display: inline-block;
+}
+
+.footer {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #0086ad;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-size: 1.1em;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
