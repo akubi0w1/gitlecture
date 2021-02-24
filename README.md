@@ -1,6 +1,8 @@
 # git レクチャー
 ゼミでやるレクチャー用
-ポートフォリオの雛形あります．使わなくなった...
+ポートフォリオの雛形あります。(使わなかった)
+
+レクチャー資料は[こちら](https://drive.google.com/drive/folders/1Ej3Mvi0UateJv7wx8aGMv-hi5FSWf9ve?usp=sharing)。
 
 # 全3回
 ## 1回目
